@@ -181,7 +181,7 @@ For more information, see [[ref: VC Data Model v1.1]].
 [[ref: Status List 2021 (First public draft)]] is a bit string, where each credential has a position in the list. Based on the value of the bit, the credential is either revoked or not. The status list is highly-space efficient, while providing herd privacy.
 
 ### Issuance
-The issuance of credentials from the [[ref: Issuer]] to the [[ref: Holder]]'s Wallet is done along the [[ref: OID4VCI D12]] specification. We follow the [[ref: JWTC VC Issuance Profile]], with the alterations mentioned above in [Profile](#profile). In addition to the 'base' profile, we use [[ref: OID4VCI]].
+The issuance of credentials from the [[ref: Issuer]] to the [[ref: Holder]]'s Wallet is done along the [[ref: OID4VCI D12]] specification. We follow the [[ref: JWT VC Issuance Profile]], with the alterations mentioned above in [Profile](#profile). In addition to the 'base' profile, we use [[ref: OID4VCI]].
 
 #### OID4VCI
 OpenID for Verifiable Credential Issuance [[ref: OID4VCI]] allows for secure direct presentation of the credential from the [[ref: Holder]] ([[ref: End-User]]) to the Verifier (Relying Party), without involvement of the [[ref: Issuer]]. 
@@ -270,6 +270,9 @@ TBD
 
 [[def: JWT VC Presentation profile]]
 ~ [JWT VC Presentation Profile](https://identity.foundation/jwt-vc-presentation-profile/). Daniel McGrogan, Kristina Yasuda, Jen Schreiber.
+
+[[def: JWT VC Issuance Profile]]
+~ [JWT VC Issuance Profile](https://identity.foundation/jwt-vc-issuance-profile/). Kristina Yasuda, Brent Zundel.
 
 [[def: Presentation Exchange v2.0.0]]
 ~ [Presentation Exchange v2.0.0](https://identity.foundation/presentation-exchange/spec/v2.0.0/). Daniel Buchner, Brent Zundel, Martin Riedel, Kim Hamilton Duffy.
